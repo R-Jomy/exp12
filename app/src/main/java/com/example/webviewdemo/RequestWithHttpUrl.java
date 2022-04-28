@@ -103,7 +103,7 @@ public class RequestWithHttpUrl extends AppCompatActivity implements View.OnClic
         });
     }
     private String getUrl(String city){
-        return "http://wthrcdn.etouch.cn/weather_mini?city="+city;
+        return "http://php.weather.sina.com.cn/xml.php?city=%B1%B1%BE%A9&password=DJOYnieT8234jlsK&day=0"+city;
     }
 
 
